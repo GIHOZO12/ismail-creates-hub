@@ -9,7 +9,7 @@ import SkillsSection from "@/components/SkillsSection";
 import ExperienceTimeline from "@/components/ExperienceTimeline";
 import OnlineProfiles from "@/components/OnlineProfiles";
 import ReflectionJournal from "@/components/ReflectionJournal";
-import heroImage from "@/assets/hero-portrait.jpg";
+import AIAssistant from "@/components/AIAssistant";
 
 const projectsData = [
   {
@@ -115,7 +115,7 @@ const Index = () => {
             <div className="relative">
               <div className="relative z-10">
                 <img 
-                  src={heroImage}
+                  src="/lovable-uploads/e23002d5-603d-43d1-b490-64132b7d955e.png"
                   alt="Ismail GIHOZO - Full-Stack Developer"
                   className="w-full max-w-md mx-auto rounded-2xl shadow-elegant animate-glow-pulse"
                 />
@@ -257,6 +257,9 @@ const Index = () => {
           </div>
         </div>
       </footer>
+
+      {/* AI Assistant */}
+      <AIAssistant />
     </div>
   );
 };
