@@ -174,14 +174,15 @@ const Index = () => {
                   <PlayCircle className="h-5 w-5 text-primary" />
                   <h3 className="text-xl font-semibold">Intro Video</h3>
                 </div>
-                <div className="aspect-video bg-muted rounded-lg flex items-center justify-center">
-                  <div className="text-center space-y-2">
-                    <PlayCircle className="h-12 w-12 text-muted-foreground mx-auto" />
-                    <p className="text-muted-foreground">Introduction video coming soon!</p>
-                    <p className="text-sm text-muted-foreground">
-                      I'm preparing a personal introduction where I'll share more about my journey and passion for technology.
-                    </p>
-                  </div>
+                <div className="aspect-video bg-muted rounded-lg overflow-hidden">
+                  <iframe
+                    src="https://www.youtube.com/embed/HZOzItLiUk0"
+                    title="Ismail GIHOZO - Introduction Video"
+                    className="w-full h-full"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                  />
                 </div>
               </CardContent>
             </Card>
