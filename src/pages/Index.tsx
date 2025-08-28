@@ -56,6 +56,8 @@ const Index = () => {
     element?.scrollIntoView({ behavior: 'smooth' });
   };
 
+
+  
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
