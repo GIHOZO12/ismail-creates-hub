@@ -19,7 +19,7 @@ const AIAssistant = () => {
   const initialMessages: Message[] = [
     {
       role: "bot",
-      text: "Hello! I'm your AI assistant. How can I help you today?",
+      text: "Hello! I'm GIHOZO Ismail AI assistant. How can I help you today?",
       timestamp: new Date(),
     },
   ];
